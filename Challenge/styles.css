@@ -5,4 +5,23 @@ body
     background-size: 38px 38px;
     background-position: 0 0,19px 19px;
 }
+header nav ul 
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    background-color:#088db5;
+}
+header nav a 
+{
+    color:white;
+    text-decoration: none;
+}
+header nav a:hover 
+{
+    color:#a0c0c9;
+    transition:all 0.3s;
+}
         
